@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9dde62454bedc4efa9e4",
-    "url": "/giphyapp/static/css/main.b6727c8e.chunk.css"
+    "revision": "d2a0f97a30e691ce007e",
+    "url": "/giphyapp/static/css/main.de4c145f.chunk.css"
   },
   {
-    "revision": "9dde62454bedc4efa9e4",
-    "url": "/giphyapp/static/js/main.9dde6245.chunk.js"
+    "revision": "d2a0f97a30e691ce007e",
+    "url": "/giphyapp/static/js/main.d2a0f97a.chunk.js"
   },
   {
     "revision": "3f0b22993c54ddcf39f8",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/giphyapp/static/js/runtime~main.125ae232.js"
   },
   {
-    "revision": "cbf24d71aefd0d8e514bb6c16c61761e",
+    "revision": "5b5eb030f50a3cbb3ea329b6056301d9",
     "url": "/giphyapp/index.html"
   }
 ];
