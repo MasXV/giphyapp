@@ -3,9 +3,6 @@
 
 React Web App that make use of Giphy API to search and show popular gifs
 
-<<<<<<< HEAD
-Check out demo here
-https://masxv.github.io/giphyapp/
 
 =======
 Check out demo here: https://masxv.github.io/giphyapp/
