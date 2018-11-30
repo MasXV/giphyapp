@@ -40,6 +40,7 @@ margin-left: 30px;
   height: auto;
   max-width: 600px;
   border-radius: 0px;
+  max-height: 500px;
 }
 
 .Modal > button, a > button {
@@ -91,8 +92,9 @@ p > a, a:visited {
 @media(max-width: 600px)
 {
 
+
   .Modal {
     top: 20%;
-      right: 2%;
+      right: 3%;
   }
 }

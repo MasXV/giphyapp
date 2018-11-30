@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 
-const API_KEY = //Insert API Key Here
+const API_KEY  = // 'Insert API Key Here'
 
 
 function Grid(props)
@@ -84,7 +84,7 @@ class App extends Component {
   }
   componentDidMount()
   {
-    const API = "http://api.giphy.com/v1/gifs/trending?api_key="+API_KEY;
+    const API = "https://api.giphy.com/v1/gifs/trending?api_key="+API_KEY;
 
     this.callApi(API);
   }
@@ -118,7 +118,7 @@ class App extends Component {
   handleFormSubmit(e)
   {
     e.preventDefault();
-    const searchAPI = 'http://api.giphy.com/v1/gifs/search?api_key='+API_KEY+'&q='+this.state.searchInput;
+    const searchAPI = 'https://api.giphy.com/v1/gifs/search?api_key='+API_KEY+'&q='+this.state.searchInput;
     this.callApi(searchAPI);
     console.log('clicked');
   }
