@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 
-const API_KEY  = // 'Insert API Key Here'
+const API_KEY = // 'Insert API Key Here'
 
 
 function Grid(props)

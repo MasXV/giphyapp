@@ -27,7 +27,6 @@
 
   position: fixed;
   top: 3%;
-
   padding: 20px;
 margin-right: 30px;
 margin-left: 30px;
@@ -35,12 +34,11 @@ margin-left: 30px;
   box-shadow: 10px 10px 79px 0px rgba(0,0,0,0.75);
 }
 .Modal > img {
-
   width: 100%;
   height: auto;
-  max-width: 600px;
+  max-width: 50vh;
   border-radius: 0px;
-  max-height: 500px;
+
 }
 
 .Modal > button, a > button {
@@ -85,16 +83,15 @@ p > a, a:visited {
 @media (max-width: 1023px)
 {
   .Search-field {
-      font-size: 30px;
+      font-size: 20px;
   }
 }
 
 @media(max-width: 600px)
 {
 
-
   .Modal {
     top: 20%;
-      right: 3%;
+    right: 3%;
   }
 }
